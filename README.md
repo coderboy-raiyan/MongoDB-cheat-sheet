@@ -22,15 +22,15 @@ br
   ```js
     {
       name  raiyan,
-      age  31,
+      age  16,
       languages [bangla, english]
      }
 
    insertOne()
-   db.users.insertOne({name  raiyan,age  31,languages [bangla, english]})
+   db.users.insertOne({name  raiyan,age  16,languages [bangla, english]})
 
    insertMany()
-   db.users.insertMany([{name  rima islam,age  31,languages [urdu, bangla]}, {name  rabeya begum,age  31,languages [hindi, bangla]}])
+   db.users.insertMany([{name  rima islam,age  16,languages [urdu, bangla]}, {name  rabeya begum,age  16,languages [hindi, bangla]}])
 
   ```
 
@@ -41,7 +41,7 @@ br
   - read a specific data syntax `db.collectionName.find({field fieldValue})`
     - example `db.users.find({name raiyan})`
   - limit data syntax `db.collectionName.find({field fieldValue}).limit(NumberOfRows)`
-    - example `db.users.find({age 31}).limit(2)`
+    - example `db.users.find({age 16}).limit(2)`
 
 - Update Data
 
